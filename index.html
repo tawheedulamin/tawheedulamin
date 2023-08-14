@@ -63,6 +63,7 @@
             </div>
         </nav>
 
+
         <!-- Components -> Carousel -> Captions -->
         <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
@@ -73,7 +74,7 @@
             <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="10000">
                     <!-- height="530" width="1000"  -->
-                    <img src="./PHOTO/Formal.jpg" class="d-block w-100" alt="...">
+                    <img src="./PHOTO/Formal.jpg" height="200" width="200" class="d-block w-10" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                         <h5 class="one">MD TAWHEEDUL AMIN SIAM</h5>
                         <p class="one"><b><i>"I am a student at IIUC CSE dept. I'm really interested in machine learning and artificial intelligence.I am a team player and I'm always willing to help others with their assignments. I'm also a mentor for the new students in our department.I am passionate about learning and I'm always looking for new challenges. I'm currently working on a research project on natural language processing."</i></b></p>
@@ -81,7 +82,7 @@
                 </div>
                 <div class="carousel-item" data-bs-interval="2000">
                     <!-- height="530" width="1000"  -->
-                    <img src="./PHOTO/Formal_II.jpg" class="d-block w-100" alt="...">
+                    <img src="./PHOTO/Formal_II.jpg" height="200" width="200" class="d-block w-10" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                         <h5 class="two">MD TAWHEEDUL AMIN SIAM</h5>
                         <p class="two"><b><i>"Looking my best in this formal dress, I'm ready to make a statement at this evening's gala. My elegant attire is a reflection of my inner confidence and sophistication, and I'm excited to show it off to the world."</i></b></p>
@@ -89,7 +90,7 @@
                 </div>
                 <div class="carousel-item">
                     <!-- height="530" width="1000" -->
-                    <img src="./PHOTO/siam.jpeg" class="d-block w-100" alt="...">
+                    <img src="./PHOTO/siam.jpeg" height="200" width="200" class="d-block w-10" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                         <h5 class="three">MD TAWHEEDUL AMIN SIAM</h5>
                         <p class="three"><b><i>"Dress for success, but don't forget to have fun with it. Style is a way to express yourself and show the world who you are. So don't be afraid to experiment and find a look that makes you feel confident and powerful. Remember, the most important thing is to be yourself and to own your style."</i></b></p>
@@ -211,53 +212,56 @@
             <h4>I am a student of Dept. of <b>CSE</b> in <b>International Islamic University Chittagong</b> which is known as <b>IIUC</b>.</h4>
         </pre>
 
-        <!-- For Reviews -->
-        <h1 class="align1"><b><i><u>Reviews</u></i></b></h1>
+        <!-- Reviews -->
+
+        <h1 class="alignX"><b><i><u>Reviews</u></i></b></h1>
         <br>
-        <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
-                <h2 class="accordion-header">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  Review 1st
-                </button>
-                </h2>
-                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as
-                        the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though
-                        the transition does limit overflow.
-                    </div>
-                </div>
-            </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  Review 2nd
-                </button>
-                </h2>
-                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well
-                        as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though
-                        the transition does limit overflow.
-                    </div>
-                </div>
-            </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  Review 3rd
-                </button>
-                </h2>
-                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well
-                        as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though
-                        the transition does limit overflow.
-                    </div>
-                </div>
+
+        <div class="review">
+            <img class="review-photo" src="./Reviews/Elon.jpg" />
+            <div class="review-content">
+                <h3 class="review-author">Elon Musk</h3>
+                <p class="review-text">"Elon is a visionary who is not afraid to think big. He is also a great leader who is able to motivate and inspire his team." - JB Straubel, former CTO of Tesla</p>
             </div>
         </div>
+        <br>
+
+        <div class="review">
+            <img class="review-photo" src="./Reviews/Mark.jpg" />
+            <div class="review-content">
+                <h3 class="review-author">Mark Zuckerberg</h3>
+                <p class="review-text">"Mark is a visionary who has changed the way we communicate and connect with each other. He is also a great leader who has built a successful company that has changed the world." - Sheryl Sandberg, COO of Meta Platforms</p>
+            </div>
+        </div>
+        <br>
+
+        <div class="review">
+            <img class="review-photo" src="./Reviews/Andy.jpg" />
+            <div class="review-content">
+                <h3 class="review-author">Andy Jassy</h3>
+                <p class="review-text">"Andy is a great leader who is always looking for ways to improve Amazon. He is also a great listener who is always open to feedback." </p>
+            </div>
+        </div>
+        <br>
+
+        <div class="review">
+            <img class="review-photo" src="./Reviews/Tim.jpg" />
+            <div class="review-content">
+                <h3 class="review-author">Tim Cook</h3>
+                <p class="review-text">"Tim is a great leader who is always looking for ways to improve Apple. He is also a great listener who is always open to feedback."</p>
+            </div>
+        </div>
+        <br>
+
+        <div class="review">
+            <img class="review-photo" src="./Reviews/Satya Nadella.jpg" />
+            <div class="review-content">
+                <h3 class="review-author">Satya Nadella</h3>
+                <p class="review-text">"Satya is a great leader who has transformed Microsoft into a cloud-first company. He is also a great visionary who is always looking for new ways to innovate." - Brad Smith, President and Chief Legal Officer of Microsoft</p>
+            </div>
+        </div>
+        <br>
+
         <br><br>
         <section style="height: 300px;" class="container rounded-3 d-flex justify-content-center align-items-center panda-bg-info" id="subscribe">
             <div>
@@ -278,11 +282,12 @@
     </main>
 
     <footer>
+        <h3><i>For More information you can <b>click</b> below : </i></h3>
         <h2><a href="https://github.com/tawheedulamin/tawheedulamin">github </a>
             <br>
             <a href="https://tawheedulamin.github.io/tawheedulamin/">live show</a></h2>
         <br>
-        <h4>copyright &copy; 2021</h4>
+        <h4>&copy;2023.All rights reserved. Md Tawheedul Amin Siam(B.Sc in CSE,IIUC)</h4>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

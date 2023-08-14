@@ -19,14 +19,14 @@
 }
 
 .two {
-    color: white;
+    color: black;
 }
 
 .three {
-    color: rgb(210, 79, 210);
+    color: black;
 }
 
-.align1 {
+.alignX {
     text-align: center!important;
     color: aqua;
 }
